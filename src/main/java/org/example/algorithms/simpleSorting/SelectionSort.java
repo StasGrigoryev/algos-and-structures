@@ -6,7 +6,7 @@ public class SelectionSort {
         int temp;
         int minInd;
         for (int i = 0; i < arr.length-1; i++) {
-            minInd = i; // don't forget this
+            minInd = i; // don't forget this step
             for (int j = i+1; j < arr.length; j++) {
                 if (arr[j] < arr[minInd]) minInd = j;
             }

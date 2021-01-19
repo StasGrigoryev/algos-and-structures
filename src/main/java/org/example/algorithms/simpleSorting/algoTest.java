@@ -2,10 +2,10 @@ package org.example.algorithms.simpleSorting;
 
 public class algoTest {
     public static void main(String[] args) {
-        int[] arr = new int[] {10,9,8,7,6,5,4,3,2,1};
+        int[] arr = new int[] {5,9,2,7,8,10,6,3,4,1};
         display(arr);
         System.out.println();
-        SelectionSort.sortSelect(arr);
+        InsertionSort.sortInsert(arr);
         display(arr);
         System.out.println();
     }
